@@ -70,10 +70,6 @@
     border: none;
   }
 
-  #tictac {
-    object-fit: contain;
-    border: none;
-  }
 
   .links {
     text-align: center;
