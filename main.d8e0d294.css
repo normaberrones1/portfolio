@@ -22,17 +22,16 @@
   text-decoration: none;
   font-size: 18px;
   margin: 0 20px;
-  display: inline-block; /* Ensure it behaves like a block-level element */
-  transition: transform 0.3s ease, color 0.3s ease; /* Smooth transitions for scale and color */
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .links a:hover {
-  color: #856e75; /* Change color */
-  transform: scale(1.1); /* Slightly enlarge the link */
-  animation: shake 0.5s ease; /* Apply the shake animation */
+  color: #856e75;
+  transform: scale(1.1);
+  animation: shake 0.5s ease;
 }
 
-/* Keyframes for the shake animation */
 @keyframes shake {
   0% { transform: translateX(0); }
   25% { transform: translateX(-5px); }
@@ -44,3 +43,4 @@
 .row {
   background-color: e2dfdf;
 }
+
