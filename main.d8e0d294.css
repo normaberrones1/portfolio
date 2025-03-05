@@ -15,6 +15,7 @@
   background-color: #f8f9fa;
   font-weight: bold;
   margin-bottom: 30px;
+
 }
 
 .links a {
@@ -42,5 +43,48 @@
 
 .row {
   background-color: e2dfdf;
+}
+
+
+
+.carousel-caption {
+  text-align: center;
+  left: 0;
+  right: 0;
+  z-index: 2; 
+}
+
+
+.carousel-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .item iframe {
+    width: 220%;
+    object-fit: contain;
+    border: none;
+  }
+
+  #tictac {
+    object-fit: contain;
+    border: none;
+    margin-left: 50px;
+  }
+
+  .links {
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    font-weight: bold;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
