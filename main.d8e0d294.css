@@ -70,6 +70,12 @@
     border: none;
   }
 
+  #tictac {
+    width: 220%;
+    object-fit: contain;
+    border: none;
+  }
+
 
   .links {
     text-align: center;
